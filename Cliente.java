@@ -20,4 +20,8 @@ public class Cliente{
 	public void setNombreCliente(String nombreCliente){
 		this.nombreCliente=nombreCliente;
 	}
+	
+	public void setNitsasd(int nit){
+		this.Nit=nit;
+	}
 }
