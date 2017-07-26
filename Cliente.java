@@ -4,8 +4,12 @@ public class Cliente{
 	private String nombreCliente;
 	private String Nit;
 	
-	public Cliente(){
-		
+	public Cliente(){}
+	
+	public Cliente(int idCliente,String nombreCliente,String Nit){
+		this.idCliente=idCliente;
+		this.nombreCliente=nombreCliente;
+		this.Nit=Nit;
 	}
 	
 	public int getIdCliente(){
