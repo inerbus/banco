@@ -9,9 +9,15 @@ public class Cliente{
 	}
 	
 	public int getIdCliente(){
-		return idCliente;
+		return this.idCliente;
 	}
 	public void setIdCliente(int idCliente){
 		this.idCliente=idCliente
+	}
+	public String getNombreCliente(){
+		return this.nombreCliente;
+	}
+	public void setNombreCliente(String nombreCliente){
+		this.nombreCliente=nombreCliente;
 	}
 }
