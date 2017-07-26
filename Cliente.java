@@ -4,7 +4,11 @@ public class Cliente{
 	private String nombreCliente;
 	private String Nit;
 	
-	public Cliente(){}
+	public Cliente(){
+		this.idCliente=0;
+		this.nombreCliente="";
+		this.Nit="";
+	}
 	
 	public Cliente(int idCliente,String nombreCliente,String Nit){
 		this.idCliente=idCliente;
